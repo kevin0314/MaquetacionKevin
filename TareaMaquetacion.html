@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página web con Bootstrap</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #fff;
+    }
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 40px;
+      margin-top: 100px;
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    .form-group input {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      background-color: transparent;
+    }
+    .btn-login {
+      background-color: #f60;
+      border-color: #f60;
+      color:black;
+      font-weight: bold;
+    }
+    .btn-login:hover {
+      background-color: #d85000;
+      border-color: #d85000;
+    }
+    .text-center {
+      text-align: center;
+    }
+    .footer {
+      font-size: 18px;
+      margin-top: 60px;
+      
+      
+    }
+    .footer a {
+      color: #ff8000;
+      text-decoration: none;
+    }
+    .footer a:not(:last-child):after {
+      content: " | ";
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    .footer span {
+      float: right;
+    }
+    .dropdown {
+      float: right;
+      margin-top: 100px;
+      margin-right: -200px;
+    }
+
+    .CC {
+      float: left;
+      margin-top: 20px;
+      margin-right: 780px;
+    }
+
+    .logo {
+      width: 400px;
+      height: 150px;
+      float: left;
+      margin-top: -100px;
+      margin-left: -10px;
+    }
+    .company-info {
+      float: left;
+    }
+
+  </style>
+</head>
+</div>
+<img class="logo" src="https://vectorlogo4u.com/wp-content/uploads/2020/12/Crunchyroll-Logo-Vector.png" alt="Logo Crunchyroll">
+</div>
+
+<body>
+
+  <div class="container">
+    <form>
+      <h2 class="text-center mb-4">Acceder</h2>
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Email o nombre de usuario" required>
+      </div>
+      <div class="form-group">
+        <input type="password" class="form-control" placeholder="Contraseña" required>
+      </div>
+      <div class="form-group">
+        <button type="submit"  class="btn btn-primary btn-login btn-block">ACCEDER</button>
+      </div>
+    </form>
+    <p class="text-center">
+      <a href="#">¿Olvidaste tu contraseña?</a>
+    </p>
+    <p class="text-center">
+      ¿No tienes cuenta? <a href="#">Crear una</a>
+    </p>
+    <div class="footer" style="position: absolute; margin-left: -100px;">
+      <a href="#" >Términos de uso</a>
+      <a href="#" >Política de privacidad</a>
+      <a href="#" >Gestión de cookies</a>
+      <span class="CC">© Crunchyroll, LLC</span>
+    </div>
+    <div class="dropdown">
+      <button  class="btn btn-light dropdown-toggle" type="button" id="languageDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Español
+      </button>
+      <div class="dropdown-menu" aria-labelledby="languageDropdown">
+        <a class="dropdown-item" href="#">Inglés</a>
+        <a class="dropdown-item" href="#">Francés</a>
+        <a class="dropdown-item" href="#">Alemán</a>
+      </div>
+   
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
